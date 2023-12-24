@@ -5,5 +5,16 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
+    <style name="mySwitch">
+        <item name="android:colorControlActivated">@color/red</item>
+    </style>
+
+    <style name="TransparentTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
     <style name="Theme.PeppyAlarm" parent="Base.Theme.PeppyAlarm" />
 </resources>
