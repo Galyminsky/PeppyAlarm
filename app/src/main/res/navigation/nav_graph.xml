@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.example.alarmclock.ui.splash.SplashFragment"
+        android:name="galyaminsky.peppyalarm.ui.splash.SplashFragment"
         android:label="SplashFragment"
         tools:layout="@layout/fragment_splash">
         <action
@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.alarmclock.ui.home.HomeFragment"
+        android:name="galyaminsky.peppyalarm.ui.home.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home">
         <action
@@ -27,7 +27,7 @@
     </fragment>
     <fragment
         android:id="@+id/alarmManagementFragment"
-        android:name="com.example.alarmclock.ui.management.AlarmManagementFragment"
+        android:name="galyaminsky.peppyalarm.ui.management.AlarmManagementFragment"
         android:label="AlarmManagementFragment"
         tools:layout="@layout/fragment_alarm_management">
         <action
@@ -38,7 +38,7 @@
     </fragment>
     <fragment
         android:id="@+id/alarmSettingFragment"
-        android:name="com.example.alarmclock.ui.setting.AlarmSettingFragment"
+        android:name="galyaminsky.peppyalarm.ui.setting.AlarmSettingFragment"
         android:label="AlarmSettingFragment"
         tools:layout="@layout/fragment_alarm_setting">
         <action
@@ -46,7 +46,7 @@
             app:destination="@id/alarmManagementFragment" />
         <argument
             android:name="alarm"
-            app:argType="com.example.alarmclock.database.AlarmEntity"
+            app:argType="galyaminsky.peppyalarm.database.AlarmEntity"
             app:nullable="true" />
     </fragment>
 </navigation>

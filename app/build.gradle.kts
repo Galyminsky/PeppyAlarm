@@ -3,9 +3,9 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("androidx.navigation.safeargs")
     id("kotlin-parcelize")
-    id("kotlin-kapt")
-    id("dagger.hilt.android.plugin")
     id("com.google.dagger.hilt.android")
+    id("dagger.hilt.android.plugin")
+    id("kotlin-kapt")
     id("com.google.devtools.ksp")
 }
 
@@ -73,8 +73,8 @@ dependencies {
 
     // Dagger Hilt dependencies
     implementation("com.google.dagger:hilt-android:2.48")
-    annotationProcessor("com.google.dagger:hilt-compiler:2.44")
-    kapt("com.google.dagger:hilt-android-compiler:2.44")
+    annotationProcessor("com.google.dagger:hilt-compiler:2.48")
+    kapt("com.google.dagger:hilt-android-compiler:2.48")
 
     // Room database
     implementation("androidx.room:room-runtime:2.6.1")
@@ -85,7 +85,8 @@ dependencies {
     // Work manager
     implementation("androidx.work:work-runtime-ktx:2.9.0")
     implementation("com.google.code.gson:gson:2.10")
-    implementation("androidx.hilt:hilt-work:1.1.0")
+    implementation("androidx.hilt:hilt-work:1.0.0")
     // When using Kotlin.
-    kapt("androidx.hilt:hilt-compiler:1.1.0")
+    kapt("androidx.hilt:hilt-compiler:1.0.0")
+
 }

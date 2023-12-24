@@ -7,7 +7,7 @@
 
         <variable
             name="alarm"
-            type="com.example.alarmclock.database.AlarmEntity" />
+            type="galyaminsky.peppyalarm.database.AlarmEntity" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
