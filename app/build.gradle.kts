@@ -69,7 +69,7 @@ dependencies {
     implementation("androidx.navigation:navigation-ui-ktx:2.7.6")
 
     // Custom bottom navigation bar
-    //implementation("com.github.ismaeldivita:chip-navigation-bar:1.4.0")
+    implementation("com.github.ismaeldivita:chip-navigation-bar:1.4.0")
 
     // Dagger Hilt dependencies
     implementation("com.google.dagger:hilt-android:2.48")
