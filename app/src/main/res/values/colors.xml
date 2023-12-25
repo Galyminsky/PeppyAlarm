@@ -27,7 +27,19 @@
 
     <color name="orange">#E91E63</color>
     <color name="orange_20">#33E91E63</color>
-
     <color name="yellow">#F4CE14</color>
     <color name="yellow_20">#33F4CE14</color>
+
+    //Material 3
+
+        //light
+    <color name="Purple80">#FFD0BCFF</color>
+    <color name="PurpleGrey80">#FFCCC2DC</color>
+    <color name="Pink80">#FFEFB8C8</color>
+
+        //dark
+    <color name="Purple40">#FF6650a4</color>
+    <color name="PurpleGrey40">#FF625b71</color>
+    <color name="Pink40">#FF7D5260</color>
+
 </resources>
